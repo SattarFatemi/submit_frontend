@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="AppStyle.css" rel="stylesheet">
+    <link href="styles/Competition.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>ثبت نام مسابقه/دوره</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__user">
+            <div id="user-icon" class="header__user__upper-part"> 
+                <img class="header__user__upper-part__image" src="./assets/Obama.jpg">
+                <div class="header__user__upper-part__name unselectable">User Name</div>
+            </div>
+            <div id="user-items" class="header__user__dropdown">
+                <div class="header__user__dropdown__item"><a class="unselectable">پنل کاربری</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">مسابقات من</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">خروج از حساب</a></div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <img id="menu-icon" class="header__menu__image" src="./assets/menu-icon.png">
+            <div id="menu-items" class="header__menu__dropdown">
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">صفحه‌ی اصلی</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">مسابقات</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">دوره‌ها</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="subtitle-soul"></div>
+    <div class="subtitle">
+        <a id="subtitle" class="subtitle__text fa text unselectable">زیرنویس</a>
+    </div>
+
+    <!-- --inja html safhe ro bezar-- -->
+
+    <div>
+        <div class="profile neo-white">
+              <div class="profile__org">
+                  <div class="profile__org__buttons">
+                      <div class="profile__org__buttons__item"><a href="#bio">توضیحات</a></div>
+                      <div class="profile__org__buttons__item"><a href="#course">سرفصل‌ها</a></div>
+                      <div class="profile__org__buttons__item"><a href="#teachers">مدرس‌ها</a></div>
+                      <div class="profile__org__buttons__item"><a href="#register">ثبت نام</a></div>
+                  </div>
+                  <img class="profile__org__image" src="./assets/backgrounds/2.jpg">
+                  <div class="profile__org__name">دوره‌ی آموزش فتوشاپ</div>
+              </div>
+              <div class="profile__follower"> 
+                  <div class="profile__follower__title title">شرکت‌کنندگان</div>
+                  <div class="profile__follower__number title">123</div>
+              </div>
+              <div class="profile__rating">
+                  <div class="profile__rating__title title">امتیـــاز</div>
+                  <div class="profile__rating__rate title">4.5 / 5</div>
+              </div>
+          </div>
+          <div class="poster-container">
+              <div class="poster-container__div1">
+                  <img class="poster-container__div1__image" src="assets/Obama.jpg">
+                  <div class="poster-container__div1__name fa title">دوره‌ی آموزش فتوشاپ</div>
+                  <div class="poster-container__div1__org fa text">انجمن دانش‌آموزی داناک</div>
+              </div>
+              <div class="poster-container__div2">
+                  <div class="poster-container__div2__info">
+                      <div class="poster-container__div2__info__item"> 
+                          <h1 class="poster-container__div2__info__item__title title fa">مدت زمان</h1>
+                          <h3 class="poster-container__div2__info__item__text text fa">سه ساعت</h3>
+                      </div>
+                      <div class="poster-container__div2__info__item"> 
+                          <h1 class="poster-container__div2__info__item__title title fa">قیمت</h1>
+                          <h3 class="poster-container__div2__info__item__text text en">120,000</h3>
+                      </div>
+                      <div class="poster-container__div2__info__item"> 
+                          <h1 class="poster-container__div2__info__item__title title fa">امتیاز</h1>
+                          <h3 class="poster-container__div2__info__item__text text en">4.5 / 5</h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="content">
+              <div id="bio" class="content__bio">
+                  <h1 class="content__bio__title fa title">توضیحات</h1>
+                  <p class="content__bio__text fa text">چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیر</p>
+                  <div class="content__bio__card blue-card card">
+                      <h1>مسئله‌محور یاد بگیر</h1>
+                      <p>همکاری با یکدیگر در مورد موضوعی به فراگیری علم می پردازند. یکی از مشکلات همراه باروش‌های آموزش سنتی، که مدرس محور بوده و در آن به فراگیرندگان فرصت تفکر (به عنوان امر ضروری در یادگیری) داده نمی‌شود، عدم توانمندی فراگیرندگان در کاربرداطلاعات علمی در شرایط واقعی و انجام وظایف حرفه‌ای است.</p>
+                  </div>
+                  <p class="content__bio__text fa text">چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیر</p>
+                  <div class="content__bio__card red-card card">
+                      <h1>مسئله‌محور یاد بگیر</h1>
+                      <p>همکاری با یکدیگر در مورد موضوعی به فراگیری علم می پردازند. یکی از مشکلات همراه باروش‌های آموزش سنتی، که مدرس محور بوده و در آن به فراگیرندگان فرصت تفکر (به عنوان امر ضروری در یادگیری) داده نمی‌شود، عدم توانمندی فراگیرندگان در کاربرداطلاعات علمی در شرایط واقعی و انجام وظایف حرفه‌ای است.</p>
+                  </div>
+              </div>
+              <h1 id="course" class="content__title fa title">سرفصل‌ها</h1>
+              <div class="content__course fa text">
+                  <div class="content__course__chapter neo-white">
+                      <p class="content__course__chapter__title">فصل اول</p>
+                      <img class="content__course__chapter__check" src="footages/pink-check.png">
+                  </div>
+                  <div class="content__course__subject">
+                        <div class="content__course__subject__item neo-white">موضوع اول</div>
+                        <div class="content__course__subject__item neo-white">موضوع دوم</div>
+                        <div class="content__course__subject__item neo-white">موضوع سوم</div>
+                  </div>      
+                  <div class="content__course__chapter neo-white">
+                      <p class="content__course__chapter__title">فصل دوم</p>
+                      <img class="content__course__chapter__check" src="">
+                  </div>
+                  <div class="content__course__subject">
+                        <div class="content__course__subject__item neo-white">موضوع اول</div>
+                        <div class="content__course__subject__item neo-white">موضوع دوم</div>
+                        <div class="content__course__subject__item neo-white">موضوع سوم</div>
+                  </div>      
+                  <div class="content__course__chapter neo-white">
+                      <p class="content__course__chapter__title">فصل سوم</p>
+                      <img class="content__course__chapter__check" src="footages/pink-lock.png">
+                  </div>
+                  <div class="content__course__subject">
+                        <div class="content__course__subject__item neo-white">موضوع اول</div>
+                        <div class="content__course__subject__item neo-white">موضوع دوم</div>
+                        <div class="content__course__subject__item neo-white">موضوع سوم</div>
+                  </div>
+              </div>
+              <h1 class="content__title fa title">مدرس‌ها</h1><hr style="margin-top: -1em;">
+              <div id="teachers" class="content__teachers">
+                  <div class="content__teachers__teacher">
+                      <img class="content__teachers__teacher__image neo-white" src="assets/Obama.jpg">
+                      <h3 class="content__teachers__teacher__name fa title">باراک اوباما</h3>
+                      <h6 class="content__teachers__teacher__bio fa text">نویسنده و سخنران</h6>
+                  </div>
+                  <div class="content__teachers__teacher">
+                      <img class="content__teachers__teacher__image neo-white" src="assets/trump.jpg">
+                      <h3 class="content__teachers__teacher__name fa title">دونالد ترامپ</h3>
+                      <h6 class="content__teachers__teacher__bio fa text">متخصص سرمایه‌گذاری غیرمتمرکز</h6>
+                  </div>
+              </div>
+              <h1 id="register" class="content__title fa title">!بریم ثبت نام</h1>
+              <div class="content__register neo-white">
+                  <div class="content__register__code">
+                      <div class="content__register__code__item">
+                          <h3 class="content__register__code__item__label fa text">کد تخفیف</h3>
+                          <input class="content__register__code__item__input neo-white fa text" type="text" name="off">
+                          <div class="content__register__code__item__button neo-white">اعمال</div>
+                      </div>
+                      <div class="content__register__code__item">
+                          <h3 class="content__register__code__item__label fa text">کد معرف</h3>
+                          <input class="content__register__code__item__input neo-white fa text" type="text" name="off">
+                          <div class="content__register__code__item__button neo-white">اعمال</div>
+                      </div>
+                  </div>
+                  <br>
+                  <hr>
+                  <br>
+                  <div class="content__register__notes">
+                      <div class="content__register__notes__note fa text" style="font-weight: bold"> .نکته: لطفا پیش از کلیک بر روی ثبت نام در صورت استفاده از وی‌پی‌ان آن را خاموش کنید تا مشکلی در پرداخت برای شما پیش نیاید</div>
+                      <div class="content__register__notes__note fa text" style="font-weight: bold">.نکته: سایت واسط پرداخت نکست‌پی یک سامانه امن برای ارتباط با سیستم بانکی است که تنها شما را به درگاه بانک متصل میکند و شما خرید خود را در سایت بانک انجام خواهید داد .پس جای نگرانی از بابت اطلاعات حساب شما وجود ندارد</div>
+                  </div>
+                  <div class="content__register__privacy">
+                      <label class="content__register__privacy__text fa text" for="check1">قوانین شرکت در مسابقه و دوره را خوانده‌ام و آن را می‌پذیرم</label>
+                      <input class="content__register__privacy__checkbox" type="checkbox" name="check1">
+                  </div>
+                  <div class="content__register__button neo-white">ثبت نام</div>
+              </div>
+              <div class="subtitle-soul"></div>
+          </div>
+          
+    </div>
+
+<script src="AppScript.js"></script>
+<script src="AppSubtitle.js"></script>
+<script src="scripts/Competition.js"></script>
+</body>

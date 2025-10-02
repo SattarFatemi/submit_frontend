@@ -1,0 +1,106 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.container__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+.container__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.container__form__label {
+  margin-bottom: -0.8em;
+}
+
+.container__form__field {
+  width: 250px;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container__form__pass {
+  position: relative;
+}
+
+.container__form__pass__toggle {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.container__form__pass__toggle:hover {
+  cursor: pointer;
+}
+
+.container__form__pass__toggle__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.container__form__button {
+  text-align: center;
+  font-family: yekanbakh;
+  font-size: 18px;
+  width: 280px;
+  height: 60px;
+  color: white;
+  background-color: #6c5ce7;
+  -webkit-transition: all 0.5s ease !important;
+  transition: all 0.5s ease !important;
+  margin-top: 30px;
+}
+
+.container__form__button:hover {
+  -webkit-transition: all 0.5s ease !important;
+  transition: all 0.5s ease !important;
+  border: 2px solid #6c5ce7;
+  color: #6c5ce7;
+  background-color: #ecf0f3;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Login.css.map */

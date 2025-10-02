@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="AppStyle.css" rel="stylesheet">
+    <link href="styles/Profile.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__user">
+            <div id="user-icon" class="header__user__upper-part"> 
+                <img class="header__user__upper-part__image" src="./assets/Obama.jpg">
+                <div class="header__user__upper-part__name unselectable">User Name</div>
+            </div>
+            <div id="user-items" class="header__user__dropdown">
+                <div class="header__user__dropdown__item"><a class="unselectable">پنل کاربری</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">مسابقات من</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">خروج از حساب</a></div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <img id="menu-icon" class="header__menu__image" src="./assets/menu-icon.png">
+            <div id="menu-items" class="header__menu__dropdown">
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">صفحه‌ی اصلی</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">مسابقات</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">دوره‌ها</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="subtitle-soul"></div>
+    <div class="subtitle">
+        <a id="subtitle" class="subtitle__text fa text unselectable">زیرنویس</a>
+    </div>
+    <!-- --inja html safhe ro bezar-- -->
+
+    <div>
+        <div class="buttons unselectable">
+            <a href="#acs"><div class="buttons__item neo-white">
+                <img class="buttons__item__icon">
+                <h4 class="buttons__item__title">افتخارات</h4>
+            </div></a>
+            <a href="#frnds"><div class="buttons__item neo-white">
+                <img class="buttons__item__icon">
+                <h4 class="buttons__item__title">دوستان</h4>
+            </div></a>
+            <div class="buttons__item neo-white">
+                <img class="buttons__item__icon">
+                <h4 class="buttons__item__title">راهنما</h4>
+            </div>
+            <div class="buttons__item neo-white"  style="background-color: #ff7675; color: white;">
+                <img class="buttons__item__icon">
+                <h4 class="buttons__item__title">خروج</h4>
+            </div>
+        </div>
+        <div class="user-info">
+            <div class="user-info__user-name unselectable">Amin Sadeghi<br><div style="font-size: 36px; margin-top: -10px; font-weight: light;">Iran, Yazd</div></div>
+            <div class="user-info__image-container neo-white">
+                <img src="assets/backgrounds/1.jpg" alt="user-image" class="user-info__image-container__image">
+                <div class="user-info__image-container__edit neo-white">
+                    <img src="assets/icons/1.png" class="user-info__image-container__edit__icon">
+                </div>
+                <div class="user-info__image-container__bio">در انتظار اعلام نتایج نهایی کنکور</div>
+            </div>
+            <div class="user-info__text-container">
+                <div class="user-info__text-container__item__text" style="margin-right: 2%;">آخرین بازدید: سه روز قبل</div>
+                <div class="user-info__text-container__item neo-white" style="margin-right: 5%;">
+                    <img class="user-info__text-container__item__icon">
+                    <h3 class="user-info__text-container__item__text">محمد امین صادقی</h3>
+                </div>
+                <div class="user-info__text-container__item neo-white" style="margin-right: 10%;">
+                    <img class="user-info__text-container__item__icon">
+                    <h3 class="user-info__text-container__item__text">amin.sadeghi.t@gmail.com</h3>
+                </div>
+                <div class="user-info__text-container__item neo-white" style="margin-right: 15%;">
+                    <img class="user-info__text-container__item__icon">
+                    <h3 class="user-info__text-container__item__text">09223974723</h3>
+                </div>
+            </div>
+            <div id="acs" class="user-info__achivements">
+                <div class="user-info__achivements__item neo-white">
+                    <div class="user-info__achivements__item__title">ویمثکاپ</div>
+                    <div class="user-info__achivements__item__rank">#12</div>
+                </div>
+                <div class="user-info__achivements__item neo-white">
+                    <div class="user-info__achivements__item__title">ویمثکاپ</div>
+                    <div class="user-info__achivements__item__rank">#12</div>
+                </div>
+                <div class="user-info__achivements__item neo-white">
+                    <div class="user-info__achivements__item__title">ویمثکاپ</div>
+                    <div class="user-info__achivements__item__rank">#12</div>
+                </div>
+                <div class="user-info__achivements__item neo-white">
+                    <div class="user-info__achivements__item__title">ویمثکاپ</div>
+                    <div class="user-info__achivements__item__rank">#12</div>
+                </div>
+            </div>
+            <div class="user-info__user-left">
+                <div class="user-info__user-left__item">
+                    <h2 class="user-info__user-left__item__title">دنبال‌کنندگان<hr style="margin-bottom: -50px;"></h2>
+                    <h2 class="user-info__user-left__item__text">123</h2>
+                </div>
+                <div class="user-info__user-left__item">
+                    <h2 class="user-info__user-left__item__title">ساب‌کوین<hr style="margin-bottom: -50px;"></h2>
+                    <h2 class="user-info__user-left__item__text">123</h2>
+                </div>
+            </div>
+            <div class="user-info__user-right">
+                <div class="user-info__user-right__item">
+                    <h2 class="user-info__user-right__item__title">سطح<hr style="margin-bottom: -50px;"></h2>
+                    <h2 class="user-info__user-left__item__text">123</h2>
+                </div>
+                <div class="user-info__user-right__item">
+                    <h2 class="user-info__user-right__item__title">تجربه<hr style="margin-bottom: -50px;"></h2>
+                    <h2 class="user-info__user-left__item__text">123</h2>
+                </div>
+            </div>
+        </div>
+        <div class="user-contacts" id="frnds">
+            <div class="user-contacts__contact-container">
+                <div class="user-contacts__contact-container__header"><h1 class="fa title">دوستان</h1></div>
+                <div class="user-contacts__contact-container__searchbox">
+                    <input class="user-contacts__contact-container__searchbox__input neo-white" type="text">
+                    <div class="user-contacts__contact-container__searchbox__icon neo-white">
+                        <img style="width: 25px; height: 25px;" src="assets/icons/4.png">
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-contacts__contact-container">
+                <div class="user-contacts__contact-container__header"><h1 class="fa title">مخاطبان</h1></div>
+                <div class="user-contacts__contact-container__searchbox">
+                    <input class="user-contacts__contact-container__searchbox__input neo-white" type="text">
+                    <div class="user-contacts__contact-container__searchbox__icon neo-white">
+                        <img style="width: 25px; height: 25px;" src="assets/icons/4.png">
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div @click="removeFriend(contact.id)" class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div @click="removeFriend(contact.id)" class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div @click="removeFriend(contact.id)" class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="user-contacts__contact-container__contact neo-white">
+                    <div class="user-contacts__contact-container__contact__name">Contact Name</div>
+                    <div class="user-contacts__contact-container__contact__buttons">
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/3.png">
+                        </div>
+                        <div @click="removeFriend(contact.id)" class="user-contacts__contact-container__contact__buttons__trash-button neo-white">
+                            <img style="width: 25px; height: 25px;" src="assets/icons/5.png">
+                        </div>
+                        <div class="user-contacts__contact-container__contact__buttons__button neo-white">
+                           <img style="width: 25px; height: 25px;" src="assets/icons/2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <h1 style="margin: auto;" class="courses-title fa title">دوره‌های من</h1>
+          <div class="courses neo-white">
+            <div class="card neo-white">
+                <img class="card__image unselectable">
+                <h1 class="card__title fa title">Card Title</h1>
+                <p class="card__text fa text unselectable">Card Text</p>
+            </div>
+            <div class="card neo-white">
+                <img class="card__image unselectable">
+                <h1 class="card__title fa title">Card Title</h1>
+                <p class="card__text fa text unselectable">Card Text</p>
+            </div>
+            <div class="card neo-white">
+                <img class="card__image unselectable">
+                <h1 class="card__title fa title">Card Title</h1>
+                <p class="card__text fa text unselectable">Card Text</p>
+            </div>
+          </div>
+      </div>
+
+    <div class="footer">
+    <div class="footer__email-label">جزو اولین نفرات باش</div>
+    <div class="footer__email">
+        <input type="text" name="email-field" class="footer__email__field neo-white" value="ایمیلت رو اینجا وارد کن" onfocus="if (this.value=='ایمیلت رو اینجا وارد کن') this.value='';" onblur="if (this.value=='') this.value='ایمیلت رو اینجا وارد کن'">
+        <div class="footer__email__button neo-white"><p>!بریم</p></div>
+    </div>
+    <div class="footer__first">
+        <div class="footer__first__title">سابمیت</div>
+        <a ><div class="footer__first__item">خانه -</div></a>
+        <a ><div class="footer__first__item">مسابقات -</div></a>
+        <a ><div class="footer__first__item">دوره‌ها -</div></a>
+        <a ><div class="footer__first__item">ارتباط با ما -</div></a>
+    </div>
+    <div class="footer__second">
+        <div class="footer__second__title">سابمیت</div>
+        <a ><div class="footer__second__item">خانه -</div></a>
+        <a ><div class="footer__second__item">مسابقات -</div></a>
+        <a ><div class="footer__second__item">دوره‌ها -</div></a>
+        <a ><div class="footer__second__item">ارتباط با ما -</div></a>
+    </div>
+    </div>
+<script src="AppScript.js"></script>
+<script src="AppSubtitle.js"></script>
+<script src="scripts/Profile.js"></script>
+</body>

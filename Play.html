@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="AppStyle.css" rel="stylesheet">
+    <link href="styles/Play.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/sygmaa/CircularCountDownJs/master/circular-countdown.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__user">
+            <div id="user-icon" class="header__user__upper-part"> 
+                <img class="header__user__upper-part__image" src="./assets/Obama.jpg">
+                <div class="header__user__upper-part__name unselectable">User Name</div>
+            </div>
+            <div id="user-items" class="header__user__dropdown">
+                <div class="header__user__dropdown__item"><a class="unselectable">پنل کاربری</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">مسابقات من</a></div>
+                <div class="header__user__dropdown__item"><a class="unselectable">خروج از حساب</a></div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <img id="menu-icon" class="header__menu__image" src="./assets/menu-icon.png">
+            <div id="menu-items" class="header__menu__dropdown">
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">صفحه‌ی اصلی</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">مسابقات</a></div>
+                <div class="header__menu__dropdown__item"><a class="unselectable" style="color: white; height: 30px; text-decoration: none; padding-top: 8px; padding-bottom: 8px; font-size: 15px;">دوره‌ها</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- --inja html safhe ro bezar-- -->
+    <div class="subtitle-soul"></div>
+    <div class="g">
+        <div class="g__left">
+            <div class="g__left__timer neo-white">
+                <div class="g__right__timer__timer timer"></div>
+            </div>
+            <div class="g__left__questions">
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+                <div class="g__left__questions__item fa title neo-white">سوال اول</div>
+            </div>
+            <div class="g__left__items">
+                <div class="g__left__items__score fa title neo-white">امتیاز این سوال: 500</div>
+                <div class="g__left__items__remain fa title neo-white">تعداد ارسال باقی‌مانده: 3</div>
+            </div>
+        </div>
+        <div class="g__mid">
+            <div class="g__mid__user-info neo-white">
+                <img src="assets/backgrounds/3.jpg" class="g__mid__user-info__image">
+                <div class="g__mid__user-info__item">
+                    <h2 class="g__mid__user-info__item__title fa title">محمد امین صادقی</h2>
+                    <h2 class="g__mid__user-info__item__title fa text"><hr style="margin-top: -1em">نام و نام خانوادگی</h2>
+                </div>
+                <div class="g__mid__user-info__item">
+                    <h2 class="g__mid__user-info__item__title fa title">143312</h2>
+                    <h2 class="g__mid__user-info__item__title fa text"><hr style="margin-top: -1em">امتیاز</h2>
+                </div>
+                <div class="g__mid__user-info__item">
+                    <h2 class="g__mid__user-info__item__title fa title">12</h2>
+                    <h2 class="g__mid__user-info__item__title fa text"><hr style="margin-top: -1em">رتبه</h2>
+                </div>
+            </div>
+            <div class="g__mid__question neo-white">
+                <div class="g__mid__question__title fa title">جورابز</div>
+                <div class="g__mid__question__text fa text">وقتی که بچه‌های دوره داشتند وارد رستوران می‌شدند دیدند که نه از شازززیا خبری هست نه از آقا تیزی، فهمیدند که سرشان کلاه رفته و افتادند دنبال شازززیا.
+
+                    نقشه‌ی شازززلند به شکل یک جدول n \times mn×m است که هر خانه از آن یا خیابان است یا ساختمان. شازززیا و بچه‌های دوره هم در دو خانه متفاوت قرار دارند. (طبیعتا فقط از خیابان‌ها می‌توان عبور کرد.)
+                    
+                    همه می‌دانند که یک خانه هم در نقشه هست که در آن یک پورتال، به یک دنیای آینه‌ای که شازززیا هم می‌خواهند به آن فرار کنند، وجود دارد.
+                    
+                    چون نقشه‌ی شازززلند با ماهواره رصد می‌شود، شازززیا نقشه را به صورت آنلاین در دسترس دارند و از آنجایی که بچه‌های دوره هم هکرهای ماهری هستند، می‌توانند به نقشه آنلاین دسترسی داشته باشند.
+                    
+                    شازززیا سوار یک ماشین شده‌اند که برای حرکت نیاز به یک کد ثابت دارد. (کدی از حرکات بالا، پایین، چپ یا راست) که اول کار باید کد را به آن بدهند. ماشین هم با توجه به آن کد حرکت می‌کند و دیگر کد قابل تغییر نیست.
+                </div>
+                <div class="g__mid__question__submit">
+                    <div class="g__mid__question__submit__top">
+                        <input type="text" class="g__mid__question__submit__top__answer fa title neo-white">
+                        <div class="g__mid__question__submit__top__button fa title neo-white">ارسال</div>
+                    </div>
+                    <div class="g__mid__question__submit__result fa title neo-white">
+                        قبلا این سوال رو حل کردی
+                    </div>
+                    <div class="g__mid__question__submit__correct fa title neo-white">
+                        نتیجه‌ی ارسال 124
+                    </div>
+                    <div class="g__mid__question__submit__wrong fa title neo-white">
+                        نتیجه‌ی ارسال 122
+                    </div>
+                    <div class="g__mid__question__submit__wrong fa title neo-white">
+                        نتیجه‌ی ارسال 121
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g__right">
+            <div class="g__right__title fa title neo-white"><img src="assets/icons/6.png" class="g__right__title__image">جدول رتبه‌بندی<img src="assets/icons/6.png" class="g__right__title__image"></div>
+            <div class="g__right__item fa title neo-white">محمد امین صادقی</div>
+            <div class="g__right__item fa title neo-white">محمد امین صادقی</div>
+            <div class="g__right__item fa title neo-white">محمد امین صادقی</div>
+            <div class="g__right__item fa title neo-white">محمد امین صادقی</div>
+            <div class="g__right__item fa title neo-white">محمد امین صادقی</div>
+            <div class="g__right__button fa title neo-white">جدول رتبه‌بندی کامل</div>
+        </div>
+    </div>
+
+<script src="AppScript.js"></script>
+<script src="scripts/Play.js"></script>
+</body>
